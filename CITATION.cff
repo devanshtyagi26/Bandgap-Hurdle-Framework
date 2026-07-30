@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+title: "Resolving Zero-Inflation in Bandgap Prediction for High-Throughput Materials Discovery using a Memory-Efficient, Consumer-Hardware Machine Learning Framework"
+
+message: "If you use this software, please cite the associated research article and this software release."
+
+type: software
+
+authors:
+  - family-names: "Tyagi"
+    given-names: "Devansh"
+
+version: "1.0.0"
+date-released: "2026-07-30"
+
+abstract: >
+  Source code implementing a machine-learning hurdle
+  framework for inorganic materials bandgap prediction using Materials
+  Project data. The repository includes the complete prediction pipeline,
+  evaluation against a more recent Materials Project release, and
+  CPU-versus-GPU benchmarking and analysis.
+
+keywords:
+  - bandgap prediction
+  - Materials Project
+  - machine learning
+  - materials informatics
+  - XGBoost
+  - GPU acceleration
+  - hurdle model
+  - conformal prediction
+  - uncertainty quantification
+
+repository-code: "https://github.com/devanshtyagi26/Bandgap-Hurdle-Framework"
+
+license: "MIT"
