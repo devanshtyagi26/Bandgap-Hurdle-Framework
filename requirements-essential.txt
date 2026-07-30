@@ -1,0 +1,37 @@
+# Essential stack for the GPU-accelerated Materials Project pipeline
+# Python: 3.13.x
+#
+# Core scientific / data stack
+numpy==2.2.6
+pandas
+scipy==1.16.3
+scikit-learn==1.8.0
+matplotlib==3.10.8
+seaborn
+pyarrow==21.0.0
+
+# Materials science / feature engineering
+pymatgen==2026.5.4
+mp-api==0.46.4
+matminer
+ase==3.29.0
+
+# GPU acceleration / CUDA data stack
+cudf
+cupy
+rmm
+numba
+numba-cuda
+
+# ML / optimization / explainability
+xgboost==3.2.0
+optuna==4.8.0
+shap==0.51.0
+
+# Structure relaxation / neural potential
+chgnet==0.4.2
+torch==2.13.0
+
+# GPU / system monitoring
+nvidia-ml-py3==7.352.0
+psutil==7.2.1
