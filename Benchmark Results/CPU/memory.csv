@@ -1,0 +1,30 @@
+stage,df_memory_mb,delta_df_mem_mb,process_rss_mb
+Raw MP Data Ingestion,165.6,0.0,4523.22
+Missing Target Filtering,162.26,-3.34,4433.21
+Memory Downcasting,119.1,-43.16,4433.34
+Structural Correlation Filter,117.57,-1.53,4473.55
+Composition Object Parsing,136.34,18.77,4473.8
+Magpie Descriptor Generation,338.24,201.9,4802.96
+Magpie Collinearity Pruning,338.24,0.0,4948.35
+Restoring non-numeric cols,338.24,0.0,4948.48
+Memory Garbage Collection,281.65,-56.59,4746.57
+Oxidation State Normalization,275.74,-5.91,4746.57
+Ionic Charge Extraction,278.8,3.06,4746.69
+Crystal System One-Hot Encoding,280.14,1.34,4943.04
+Magnetic State Regularization,280.51,0.37,4943.16
+Variance-Stabilizing Transforms,281.28,0.77,5020.88
+Orbital Feature Removal,226.98,-54.3,5142.85
+Greedy Collinearity Pruning,110.72,-116.26,5089.3
+Final Matrix Validation,110.72,0.0,5089.34
+Metadata Removal,110.72,0.0,5012.22
+Hurdle Target Construction,112.25,1.53,5012.35
+Target Log-Transformation,113.01,0.76,5174.26
+Feature Matrix Assembly,113.01,0.0,5266.02
+Stage 1 Baseline Training,113.01,0.0,5674.04
+Stage 2 Baseline Training,113.01,0.0,5767.12
+Conformal UQ Calibration,113.01,0.0,5767.25
+Stage 2 Hyperparameter Search,113.01,0.0,5880.05
+Bin-Wise Bias Calibration,113.01,0.0,5880.18
+Stage 1 Hyperparameter Search,113.01,0.0,6133.61
+Hurdle Gate Threshold Calibration,113.01,0.0,6133.61
+End-to-End Test Evaluation,113.01,0.0,6133.61

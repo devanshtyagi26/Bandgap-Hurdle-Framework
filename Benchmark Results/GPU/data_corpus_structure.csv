@@ -1,0 +1,30 @@
+stage,rows,delta_rows,columns,delta_cols
+Raw MP Data Ingestion,210579,0,23,0
+Missing Target Filtering,200487,-10092,23,0
+Memory Downcasting,200487,0,23,0
+Structural Correlation Filter,200487,0,21,-2
+Composition Object Parsing,200487,0,22,1
+Magpie Descriptor Generation,200487,0,154,132
+Magpie Collinearity Pruning,200487,0,154,0
+Restoring non-numeric cols,200487,0,154,0
+Memory Garbage Collection,200487,0,117,-37
+Oxidation State Normalization,200487,0,117,0
+Ionic Charge Extraction,200487,0,121,4
+Crystal System One-Hot Encoding,200487,0,128,7
+Magnetic State Regularization,200487,0,131,3
+Variance-Stabilizing Transforms,200487,0,133,2
+Orbital Feature Removal,200487,0,94,-39
+Greedy Collinearity Pruning,200487,0,87,-7
+Final Matrix Validation,200487,0,87,0
+Metadata Removal,200487,0,87,0
+Hurdle Target Construction,200487,0,88,1
+Target Log-Transformation,200487,0,89,1
+Feature Matrix Assembly,200487,0,89,0
+Stage 1 Baseline Training,200487,0,89,0
+Stage 2 Baseline Training,200487,0,89,0
+Conformal UQ Calibration,200487,0,89,0
+Stage 2 Hyperparameter Search,200487,0,89,0
+Bin-Wise Bias Calibration,200487,0,89,0
+Stage 1 Hyperparameter Search,200487,0,89,0
+Hurdle Gate Threshold Calibration,200487,0,89,0
+End-to-End Test Evaluation,200487,0,89,0

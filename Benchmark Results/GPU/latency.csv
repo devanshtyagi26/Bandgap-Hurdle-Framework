@@ -1,0 +1,30 @@
+stage,timestamp,elapsed_sec,note
+Raw MP Data Ingestion,10:41:25,146.1999,Ingestion
+Missing Target Filtering,10:42:43,6.1201,Preprocessing
+Memory Downcasting,10:45:17,79.4947,Memory Optimization
+Structural Correlation Filter,10:46:41,10.9006,Feature Selection
+Composition Object Parsing,10:49:49,159.5755,Featurization
+Magpie Descriptor Generation,11:07:57,1082.958,Featurization
+Magpie Collinearity Pruning,11:09:28,60.7912,Feature Selection
+Restoring non-numeric cols,11:10:08,7.6087,Restoring important non numerical features
+Memory Garbage Collection,11:10:56,15.549,Memory Optimization
+Oxidation State Normalization,11:12:51,85.7381,Feature Engineering
+Ionic Charge Extraction,11:15:06,105.9152,Feature Engineering
+Crystal System One-Hot Encoding,11:21:02,335.3283,Encoding
+Magnetic State Regularization,11:22:25,50.6132,Encoding
+Variance-Stabilizing Transforms,11:28:17,331.1791,Feature Engineering
+Orbital Feature Removal,11:37:11,519.1081,Feature Selection
+Greedy Collinearity Pruning,11:40:54,231.0465,Feature Selection
+Final Matrix Validation,11:40:57,2.8727,Data Quality
+Metadata Removal,11:41:04,6.9652,Cleaning
+Hurdle Target Construction,11:41:05,0.0616,Target Engineering
+Target Log-Transformation,11:41:24,18.1839,Target Engineering
+Feature Matrix Assembly,11:41:24,0.1358,Matrix Assembly
+Stage 1 Baseline Training,11:41:57,33.5583,Model Training
+Stage 2 Baseline Training,11:42:38,42.9727,Model Training
+Conformal UQ Calibration,11:42:41,2.5731,Uncertainty Quantification
+Stage 2 Hyperparameter Search,11:56:29,850.7477,Optimization
+Bin-Wise Bias Calibration,11:56:30,0.2866,Calibration
+Stage 1 Hyperparameter Search,12:12:11,971.6996,Optimization
+Hurdle Gate Threshold Calibration,12:12:12,1.4618,Calibration
+End-to-End Test Evaluation,12:12:14,1.7234,Evaluation
